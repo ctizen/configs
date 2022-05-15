@@ -5,7 +5,7 @@
 ## Autostart Programs
 
 # Kill already running process
-_ps=(picom dunst xfce-polkit xfce4-power-manager blueman-applet nm-applet xsettingsd)
+_ps=(picom xfce4-notifyd xfce-polkit xfce4-power-manager blueman-applet nm-applet xsettingsd)
 for _prs in "${_ps[@]}"; do
 	if [[ `pidof ${_prs}` ]]; then
 		killall -9 ${_prs}
@@ -34,10 +34,12 @@ xfce4-power-manager &
 hsetroot -cover ~/.config/i3/wallpapers/bg.jpg
 
 # Lauch notification daemon
-~/.config/i3/bin/i3dunst.sh
+#~/.config/i3/bin/i3dunst.sh
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 # Lauch polybar
-~/.config/i3/bin/i3bar.sh
+#~/.config/i3/bin/i3bar.sh
+~/.config/polybar/blocks/launch.sh
 
 # Lauch compositor
 ~/.config/i3/bin/i3comp.sh

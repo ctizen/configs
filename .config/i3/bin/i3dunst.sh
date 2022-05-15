@@ -15,7 +15,7 @@ if [[ `pidof dunst` ]]; then
 fi
 
 dunst \
--geom "280x50-14+52" -frame_width "2" -font "Iosevka Custom 10" \
+-geom "280x80-14+52" -frame_width "2" -font "Iosevka Custom 18" \
 -lb "$BG" -lf "$FG" -lfr "$BD" \
 -nb "$BG" -nf "$FG" -nfr "$BD" \
 -cb "$BG" -cf "$UBD" -cfr "$UBD" &
