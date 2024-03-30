@@ -1,0 +1,14 @@
+{
+  "float": [
+    {
+      "class": "pop-shell-example",
+      "title": "pop-shell-example"
+    },
+    {
+      "class": "ulauncher",
+      "title": "ULauncher"
+    }
+  ],
+  "skiptaskbarhidden": [],
+  "log_on_focus": false
+}

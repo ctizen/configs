@@ -1,0 +1,4 @@
+Add following to /etc/chromium/chromium.conf:
+
+--disable-features=WaylandFractionalScaleV1
+
