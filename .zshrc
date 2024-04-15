@@ -1,3 +1,17 @@
+export TERM=xterm-256color
+# TMUX
+if which tmux >/dev/null 2>&1; then
+    #if not inside a tmux session, and if no session is started, start a new session
+    test -z "$TMUX" && exec tmux new-session -A -s workspace
+fi
+
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -5,9 +19,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="essembeh"
-
-
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -42,7 +54,7 @@ ZSH_THEME="essembeh"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -96,13 +108,6 @@ alias webstorm="gtk-launch jetbrains-webstorm"
 
 alias filter_shit="grep -v '/assets/' | grep -v 'favicon.ico' | grep -v '/vendor' | grep -v '/cookie' | grep -v '/fonts' | grep -v '/apple' | grep -v '/static'"
 
-export TERM=xterm-256color
-# TMUX
-if which tmux >/dev/null 2>&1; then
-#if not inside a tmux session, and if no session is started, start a new session
-     test -z "$TMUX" && tmux new-session
-fi
-
 npm set progress=false
 
 unset GREP_OPTIONS
@@ -123,5 +128,6 @@ ZSH_THEME_GIT_PROMPT_RENAMED="${FG[220]}➜ %{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNMERGED="${FG[082]}═ %{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="${FG[190]}✭ %{$reset_color%}"
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-#source "/home/oleg/projects/wasm/emsdk/emsdk_env.sh"
