@@ -1,0 +1,61 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "autosave": "on_focus_change",
+  "vim_mode": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "soft_wrap": "editor_width",
+  "tab_size": 2,
+  "ui_font_family": "Iosevka Nerd Font",
+  "ui_font_size": 13,
+  "buffer_font_family": "IosevkaTerm Nerd Font",
+  "buffer_font_size": 15,
+  "buffer_line_height": "standard",
+  "theme": "Gruvbox Dark",
+  "languages": {
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    }
+  },
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": true
+    }
+  },
+  "terminal": {
+    "alternate_scroll": "off",
+    "blinking": "terminal_controlled",
+    "copy_on_select": false,
+    "env": {},
+    "font_family": "Iosevka Nerd Font",
+    "font_size": 12,
+    "line_height": "standard",
+    "shell": {
+      "with_arguments": {
+        "program": "/bin/bash",
+        "args": ["--login"]
+      }
+    },
+    "toolbar": {
+      "title": true
+    },
+    "working_directory": "current_project_directory"
+  },
+  "project_panel": {
+    "dock": "left",
+    "git_status": true,
+    "default_width": 300
+  }
+}
