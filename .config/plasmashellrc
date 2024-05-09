@@ -1,0 +1,13 @@
+[KFileDialog Settings]
+Recent Files[$e]=pexels-ana-karenina-13150035.jpg,file:$HOME/wallpapers/pexels-nouman-raees-3670681.jpg,file:$HOME/wallpapers/pexels-no-name-14543-66997.jpg,file:$HOME/wallpapers/pexels-joyston-judah-331625-933054.jpg,file:$HOME/wallpapers/pexels-johannes-plenio-2850287.jpg,file:$HOME/wallpapers/pexels-felixmittermeier-1146134.jpg,file:$HOME/wallpapers/pexels-faik-akmd-1025469.jpg,file:$HOME/wallpapers/pexels-fabian-reitmeier-707915.jpg,file:$HOME/wallpapers/pexels-evie-shaffer-1259279-4004374.jpg,file:$HOME/wallpapers/pexels-eberhard-grossgasteiger-1624497.jpg,file:$HOME/wallpapers/pexels-eberhard-grossgasteiger-1367119.jpg,file:$HOME/wallpapers/pexels-eberhard-grossgasteiger-844297.jpg,file:$HOME/wallpapers/pexels-catiamatos-1072179.jpg,file:$HOME/wallpapers/pexels-carlos-oliva-1966452-3586966.jpg,file:$HOME/wallpapers/pexels-ave-calvar-martinez-3947374.jpg,file:$HOME/wallpapers/pexels-ana-karenina-13150035.jpg
+Recent URLs[$e]=file:$HOME/wallpapers/
+detailViewIconSize=16
+
+[PlasmaTransientsConfig]
+PreloadWeight=26
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=24
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/folderview_fix_recursive_screenmapping.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/mediaframe_migrate_useBackground_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js

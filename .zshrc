@@ -2,14 +2,7 @@ export TERM=xterm-256color
 # TMUX
 if which tmux >/dev/null 2>&1; then
     #if not inside a tmux session, and if no session is started, start a new session
-    test -z "$TMUX" && exec tmux new-session -A -s workspace
-fi
-
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+    test -z "$TMUX" && exec tmux new-session
 fi
 
 # Path to your oh-my-zsh configuration.
@@ -19,7 +12,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="agnoster"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -98,8 +91,8 @@ alias crm="git checkout remotes/origin/master"
 alias stash="git stash"
 alias co="git checkout"
 alias gpro="git pull --rebase origin"
-alias mc="mc -S modarin256"
-alias mcedit="mcedit -S modarin256"
+alias mc="SHELL=/bin/bash mc -S modarin256"
+alias mcedit="SHELL=/bin/base mcedit -S modarin256"
 
 # see .local/share/applications
 alias phpstorm="gtk-launch jetbrains-phpstorm"
@@ -128,6 +121,8 @@ ZSH_THEME_GIT_PROMPT_RENAMED="${FG[220]}➜ %{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNMERGED="${FG[082]}═ %{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="${FG[190]}✭ %{$reset_color%}"
 
+
+source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
