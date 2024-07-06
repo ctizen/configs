@@ -1,0 +1,24 @@
+[font]
+    normal = ["IosevkaTerm NFP ExtraLight"] # Will use the bundled Fira Code Nerd Font by default
+    bold = ["IosevkaTerm NFP"] # Will use the bundled Fira Code Nerd Font by default
+    size = 14.0
+
+[font.italic]
+    family = "IosevkaTerm NFP ExtraLight"
+    style = "Italic"
+
+[font.bold_italic]
+    family = "IosevkaTerm NFP"
+    style = "Italic"
+
+fork = false
+frame = "full"
+idle = true
+maximized = true
+no-multigrid = false
+srgb = false
+tabs = true
+theme = "gruvbox"
+title-hidden = true
+vsync = true
+wsl = false
