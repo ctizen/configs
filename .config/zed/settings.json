@@ -1,0 +1,72 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "icon_theme": "Catppuccin Frappé",
+  "languages": {
+    "PHP": {
+      "prettier": {
+        "allowed": false
+      },
+      "language_servers": ["intelephense", "!phpactor"]
+    }
+  },
+  "autosave": "on_focus_change",
+  "base_keymap": "JetBrains",
+  "buffer_font_family": "Iosevka",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "buffer_font_weight": 200,
+  "buffer_line_height": "standard",
+  "format_on_save": "on",
+  "preview_tabs": {
+    "enabled": false
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Gruvbox Dark"
+  },
+  "terminal": {
+    "alternate_scroll": "off",
+    "blinking": "terminal_controlled",
+    "copy_on_select": false,
+    "keep_selection_on_copy": false,
+    "dock": "bottom",
+    "default_width": 640,
+    "default_height": 320,
+    "detect_venv": {
+      "on": {
+        "directories": [".env", "env", ".venv", "venv"],
+        "activate_script": "default"
+      }
+    },
+    "env": {},
+    "font_family": null,
+    "font_features": null,
+    "font_size": null,
+    "line_height": "comfortable",
+    "minimum_contrast": 45,
+    "option_as_meta": false,
+    "button": true,
+    "shell": {
+      "program": "bash"
+    },
+    "toolbar": {
+      "breadcrumbs": true
+    },
+    "working_directory": "current_project_directory",
+    "scrollbar": {
+      "show": null
+    }
+  }
+}

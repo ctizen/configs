@@ -1,0 +1,179 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=#261f11
+ColorAmount=0.5
+ColorEffect=3
+ContrastAmount=0
+ContrastEffect=0
+Enable=
+IntensityAmount=0
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=#100a02
+ColorAmount=0.025
+ColorEffect=0
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=#504328
+BackgroundNormal=#2e2718
+DecorationFocus=#ffb59e
+DecorationHover=#ffb59e
+ForegroundActive=#efe1ca
+ForegroundInactive=#a08f6e
+ForegroundLink=#8fc9fc
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#fcb38a
+ForegroundNormal=#efe1ca
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:Complementary]
+BackgroundAlternate=#191306
+BackgroundNormal=#261f11
+DecorationFocus=#ffb59e
+DecorationHover=#ffb59e
+ForegroundActive=#efe1ca
+ForegroundInactive=#a08f6e
+ForegroundLink=#8fc9fc
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#fcb38a
+ForegroundNormal=#d8c4a0
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:Header]
+BackgroundAlternate=#261f11
+BackgroundNormal=#261f11
+DecorationFocus=#ffb59e
+DecorationHover=#ffb59e
+ForegroundActive=#efe1ca
+ForegroundInactive=#a08f6e
+ForegroundLink=#8fc9fc
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#fcb38a
+ForegroundNormal=#d8c4a0
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:Header][Inactive]
+BackgroundAlternate=#261f11
+BackgroundNormal=#261f11
+DecorationFocus=#ffb59e
+DecorationHover=#ffb59e
+ForegroundActive=#efe1ca
+ForegroundInactive=#a08f6e
+ForegroundLink=#8fc9fc
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#fcb38a
+ForegroundNormal=#d8c4a0
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:Selection]
+BackgroundAlternate=#ffb59e
+BackgroundNormal=#ffb59e
+DecorationFocus=#ffb59e
+DecorationHover=#ffb59e
+ForegroundActive=#5e1800
+ForegroundInactive=#5e1800
+ForegroundLink=#004b73
+ForegroundNegative=#920023
+ForegroundNeutral=#753400
+ForegroundNormal=#5e1800
+ForegroundPositive=#005228
+ForegroundVisited=#74009f
+
+[Colors:Tooltip]
+BackgroundAlternate=#504328
+BackgroundNormal=#261f11
+DecorationFocus=#ffb59e
+DecorationHover=#ffb59e
+ForegroundActive=#efe1ca
+ForegroundInactive=#a08f6e
+ForegroundLink=#8fc9fc
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#fcb38a
+ForegroundNormal=#efe1ca
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:View]
+BackgroundAlternate=#261f11
+BackgroundNormal=#191306
+DecorationFocus=#ffb59e
+DecorationHover=#9b4428
+ForegroundActive=#efe1ca
+ForegroundInactive=#a08f6e
+ForegroundLink=#8fc9fc
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#fcb38a
+ForegroundNormal=#efe1ca
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:Window]
+BackgroundAlternate=#504328
+BackgroundNormal=#261f11
+DecorationFocus=#ffb59e
+DecorationHover=#ffb59e
+ForegroundActive=#8fc9fc
+ForegroundInactive=#a08f6e
+ForegroundLink=#8fc9fc
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#fcb38a
+ForegroundNormal=#d8c4a0
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[General]
+ColorScheme=MaterialYouDark
+ColorSchemeHash=331a2546c76c7f05489e876115e3e291b745605d
+LastUsedCustomAccentColor=184,117,220
+TerminalApplication=kitty -1
+XftHintStyle=hintslight
+XftSubPixel=none
+fixed=JetBrainsMono Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=Rubik,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Rubik,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=breeze-plus-dark
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=168
+View Style=Simple
+
+[Sounds]
+Theme=freedesktop
+
+[WM]
+activeBackground=60,52,36
+activeBlend=252,252,252
+activeFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeForeground=239,225,202
+inactiveBackground=111,51,31
+inactiveBlend=161,169,177
+inactiveForeground=255,219,208
+

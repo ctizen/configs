@@ -1,10 +1,18 @@
-[Default Applications]
-text/html=google-chrome.desktop
-x-scheme-handler/http=google-chrome.desktop
-x-scheme-handler/https=google-chrome.desktop
-x-scheme-handler/about=google-chrome.desktop
-x-scheme-handler/unknown=google-chrome.desktop
-x-scheme-handler/tg=userapp-Telegram Desktop-6WBDA1.desktop
-
 [Added Associations]
-x-scheme-handler/tg=userapp-Telegram Desktop-6WBDA1.desktop;
+image/png=viewnior.desktop;
+image/jpeg=viewnior.desktop;
+image/gif=viewnior.desktop;
+image/svg+xml=viewnior.desktop;
+text/x-csrc=geany.desktop;
+text/plain=geany.desktop;
+application/x-shellscript=geany.desktop;
+application/x-theme=geany.desktop;
+application/json=geany.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-3PIKF3.desktop;
+x-scheme-handler/tonsite=userapp-Telegram Desktop-TNQLF3.desktop;
+
+[Default Applications]
+image/gif=viewnior.desktop
+image/svg+xml=viewnior.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-3PIKF3.desktop
+x-scheme-handler/tonsite=userapp-Telegram Desktop-TNQLF3.desktop
